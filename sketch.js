@@ -12,12 +12,12 @@ var track,c1,c2,c3,c4,g;
 
 function preload()
 {
-  track = loadImage("../images/track.png")
-  c1 = loadImage("../images/car1.png")
-  c2 = loadImage("../images/car2.png")
-  c3 = loadImage("../images/car3.png")
-  c4 = loadImage("../images/car4.png")
-  g = loadImage("../images/ground.png")
+  track = loadImage("images/track.png")
+  c1 = loadImage("images/car1.png")
+  c2 = loadImage("images/car2.png")
+  c3 = loadImage("images/car3.png")
+  c4 = loadImage("images/car4.png")
+  g = loadImage("images/ground.png")
 }
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight - 30);
